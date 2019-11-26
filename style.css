@@ -1,0 +1,45 @@
+body{
+    font-family: 'Calistoga', cursive;
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    
+}
+
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 50%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+
+.contact-form form{
+    padding: 10%;
+}
+
+.contact-form h2{
+    margin-bottom: 12%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    padding: 2%;
+    background: #b92b27;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+#error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: justify;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
